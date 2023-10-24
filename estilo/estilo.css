@@ -1,0 +1,185 @@
+/*Dando de alta los recursos*/
+
+@font-face {
+    font-family: Krifon;
+    src: url(/originales/Krifon\ Regular.otf);
+}
+
+@font-face {
+    font-family: Devil;
+    src: url(/originales/DevilCandleAlt_PERSONAL_USE_ONLY.otf);
+}
+
+@font-face {
+    font-family: Halloween;
+    src: url(/originales/Halloween\ Spooky.otf);
+}
+
+@font-face {
+    font-family: Ghost;
+    src: url(/originales/Ghosteen.otf);
+}
+
+/*----------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #252422;
+}
+
+body {
+    width: 750px;
+    /* height: 1000px; */
+    margin: auto;
+    background-color: #7A402E;
+    color: #D1CDC4;
+}
+
+/*----------*/
+
+section#banner {
+    width: 250px;
+    height: 90px;
+    font-family: Halloween;
+    font-size: 30px;
+    background-color: #61603C;
+    float: left;
+}
+
+section#logo {
+    width: 250px;
+    height: 90px;
+    float: right;
+    background-color: #61603C;
+    font-family: Halloween;
+    font-size: 30px;
+}
+
+section#login {
+    width: 250px;
+    height: 90px;
+    float: left;
+    background-color: #C2803A;
+    font-family: Halloween;    
+    font-size: 30px;
+}
+
+.caja {
+    position: relative;
+}
+
+#uno {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    color: #FFFCF2;
+    padding: 15px;
+}
+
+#dos {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    color: #FFFCF2;
+    padding: 15px;
+}
+
+#tres {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    color: #FFFCF2;
+    padding: 15px;
+}
+
+/*----------*/
+
+nav {
+    width: 750px;
+    height: 340px;
+    color: #D1CDC4;
+    font-size: 30px;
+    font-family: Devil;
+}
+
+section#inicio {
+    width: 250px;
+    height: 250px;
+    float: left;
+    background-color: #BF5D30;
+}
+
+section#contacto {
+    width: 250px;
+    height: 250px;
+    float: left;
+    background-color: #7A402E;
+}
+
+section#producto {
+    width: 250px;
+    height: 250px;
+    float: right;
+    background-color: #BF5D30;
+}
+
+/*----------*/
+main {
+    width: 750px;
+    height: 250px;
+    font-size: 30px;
+    font-family: Krifon;
+}
+
+aside#hoy {
+    width: 250px;
+    height: 250px;
+    float: left;
+    background-color: #61603C;
+}
+
+aside#novedades {
+    width: 250px;
+    height: 250px;
+    float: left;
+    background-color: #C2803A;
+}
+
+aside#internacional {
+    width: 250px;
+    height: 250px;
+    float: right;
+    background-color: #61603C;
+}
+
+/*----------*/
+footer{
+    width: 750px;
+    height: 250px;
+    font-size: 30px;
+    font-family: Krifon;
+}
+
+aside#creditos{
+    width: 250px;
+    height: 250px;
+    float: left;
+    background-color: #BF5D30; 
+}
+
+aside#lugar{
+    width: 250px;
+    height: 250px;
+    float: left;
+    background-color: #C2803A;
+}
+aside#correo{
+    width: 250px;
+    height: 250px;
+    float: right;
+    background-color: #BF5D30;
+}
